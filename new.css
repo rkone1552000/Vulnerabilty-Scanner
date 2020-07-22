@@ -1,0 +1,67 @@
+#grad
+{
+ background:
+    radial-gradient(red -1px, transparent 5px),
+    radial-gradient(red -1px, transparent 5px),
+    linear-gradient(#031321 5px, transparent 0),
+    linear-gradient(45deg, transparent 75px, transparent 75px,white, transparent 76px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px,white, transparent 78px),
+    #031321;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.btn .button {
+  background-color: #031321;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+.btn .active{
+  background-color: #031321;
+  border: none;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  color:orange;
+}
+
+.btn .button:hover {
+  color: green;
+}
+
+a
+{
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: #00ff00;
+font-family:consolas;
+letter-spacing:4px;
+text-decoration:none;
+text-transform:Uppercase;
+font-size: 30px;
+overflow: hidden;
+transition: 0.2s;
+}
+a:hover
+{
+	color:#255784;
+	background: #000000;
+	box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+	transition-delay: 0s;
+} 
+a span
+{
+	position: absolute;
+	display: block;
+}
